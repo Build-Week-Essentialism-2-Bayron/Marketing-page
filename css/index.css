@@ -3,6 +3,7 @@ header {
   width: 100%;
   padding-bottom: 1.5rem;
   padding-top: 2rem;
+  background-color: whitesmoke;
 }
 header nav {
   display: flex;
@@ -54,11 +55,11 @@ p {
   padding-bottom: 2rem;
   font-size: 1.3rem;
 }
-button {
+.dabtn {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
-  margin-left: 33rem;
+}
+.dabtn .btn {
   font-family: "Monsterrat", sans-serif;
   font-size: 1.5rem;
   color: white;
@@ -70,7 +71,7 @@ button {
   border-radius: 2rem;
   box-shadow: 0px 0px 3px 0px #7d5a5a;
 }
-button:hover {
+.dabtn :hover {
   opacity: 50%;
 }
 .about {
@@ -98,6 +99,40 @@ nav a {
 }
 nav a nav a:hover {
   color: blue;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Monsterrat", sans-serif;
+  color: #7d5a5a;
+  padding-top: 2rem;
+  text-shadow: 2px 2px 2px #d39797;
+  font-size: 3rem;
+}
+.Team {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  margin-right: 3000px;
+}
+.Team img {
+  margin: 0;
+  width: 60%;
+  max-width: 330px;
+  height: auto;
+  border: solid;
+}
+.Pics {
+  text-align: center;
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 1px;
+}
+.signUp {
+  background-image: url("https://i.ibb.co/ZBdwVfS/signup.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 header {
   box-shadow: 0px 0px 3px 0px #7d5a5a;
